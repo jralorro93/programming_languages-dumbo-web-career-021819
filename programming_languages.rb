@@ -40,6 +40,7 @@ def reformat_languages(languages)
   value.each do |k,v|
     puts k
     puts v
+    binding.pry
   end
 end
   end 
