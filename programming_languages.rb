@@ -37,6 +37,7 @@ def reformat_languages(languages)
   new_hash = {}
   languages.each do |key, value|
     if key == [:oo]
+          binding.pry
       key.reject {|x| x == [:oo]}
           binding.pry
       value.each do |k,v|
