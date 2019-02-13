@@ -39,8 +39,8 @@ def reformat_languages(languages)
     puts key
       value.each do |k,v|
         puts k
-          puts v
+        puts v
     binding.pry
+      end
   end
-end
 end 
