@@ -46,5 +46,4 @@ def reformat_languages(languages)
       end 
     end 
   end
-  :style => [:oo, :oo, :oo, :oo]
 end 
