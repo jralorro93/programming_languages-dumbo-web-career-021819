@@ -36,7 +36,7 @@ languages = {
 def reformat_languages(languages)
   new_hash = {}
   languages.each do |key, value|
-    puts key
+    new_hash[:key] = value 
       value.each do |k,v|
         puts k
         puts v
